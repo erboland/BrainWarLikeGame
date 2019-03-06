@@ -12,6 +12,8 @@
 		CE1E5CBE1D3906120013A4F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1E5CBC1D3906120013A4F1 /* Main.storyboard */; };
 		CE1E5CC01D3906120013A4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1E5CBF1D3906120013A4F1 /* Assets.xcassets */; };
 		CE1E5CC31D3906120013A4F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1E5CC11D3906120013A4F1 /* LaunchScreen.storyboard */; };
+		CE9707341D49FC3900797D23 /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9707331D49FC3900797D23 /* CustomCellTableViewCell.swift */; };
+		CE9707361D49FE1600797D23 /* LessonsTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9707351D49FE1600797D23 /* LessonsTableViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CE1E5CBF1D3906120013A4F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1E5CC21D3906120013A4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE1E5CC41D3906120013A4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9707331D49FC3900797D23 /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
+		CE9707351D49FE1600797D23 /* LessonsTableViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonsTableViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				CE1E5CBF1D3906120013A4F1 /* Assets.xcassets */,
 				CE1E5CC11D3906120013A4F1 /* LaunchScreen.storyboard */,
 				CE1E5CC41D3906120013A4F1 /* Info.plist */,
+				CE9707331D49FC3900797D23 /* CustomCellTableViewCell.swift */,
+				CE9707351D49FE1600797D23 /* LessonsTableViewViewController.swift */,
 			);
 			path = "Brainwar like game";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9707361D49FE1600797D23 /* LessonsTableViewViewController.swift in Sources */,
 				CE1E5CBB1D3906120013A4F1 /* ViewController.swift in Sources */,
 				CE1E5CB91D3906120013A4F1 /* AppDelegate.swift in Sources */,
+				CE9707341D49FC3900797D23 /* CustomCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +296,7 @@
 				CE1E5CC91D3906120013A4F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
